@@ -4,7 +4,51 @@
     box-sizing: border-box;
 }
 
-
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;    /*7ot el categories el fel header kolaha in 1 line*/
+    /* background: lightblue; */
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links, .cart{
+    display: flex;
+}
+
+.logo-container{
+    /* background: chartreuse; */
+    flex: 1;
+}
+
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+
+nav{
+    /* background: blueviolet; */
+    flex: 2;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cart{
+    /* background: crimson; */
+    flex: 1;
+    justify-content: flex-end;
 }
