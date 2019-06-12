@@ -145,3 +145,30 @@ button{
     left: 22%;
     height: 40%;
 }
+
+
+.laptop-select{
+    margin-top: 20px;
+    width: 15%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 20%;
+}
+
+.left-arrow{
+    height: 100%;
+}
+
+.empty-dot{
+    height: 100%;
+}
+
+.dot{
+    height: 100%;
+}
+
+.right-arrow{
+    height: 100%;
+}
